@@ -1,13 +1,13 @@
 <resources>
 
     <!-- Base application theme. -->
-    <style name="AppBaseThemeLight" parent="Theme.AppCompat.Light.NoActionBar">
+    <style name="AppBaseThemeLight" parent="Theme.Material.Light.NoActionBar">
         <item name="colorPrimary">@color/color_primary</item>
         <item name="colorPrimaryDark">@color/color_primary_dark</item>
         <item name="colorAccent">?attr/colorPrimary</item>
     </style>
 
-    <style name="AppBaseThemeDark" parent="Theme.AppCompat.NoActionBar">
+    <style name="AppBaseThemeDark" parent="Theme.Material.NoActionBar">
         <item name="colorPrimary">@color/color_primary</item>
         <item name="colorPrimaryDark">@color/color_primary_dark</item>
         <item name="colorAccent">?attr/colorPrimary</item>
@@ -34,14 +34,14 @@
         <item name="android:colorBackground">@color/navigationdrawer_background_dark</item>
     </style>
 
-    <style name="AppThemeActionBarLight" parent="Theme.AppCompat.Light.DarkActionBar">
+    <style name="AppThemeActionBarLight" parent="Theme.Material.Light.DarkActionBar">
         <item name="colorPrimary">@color/color_primary</item>
         <item name="colorPrimaryDark">@color/color_primary_dark</item>
         <item name="colorAccent">?attr/colorPrimary</item>
         <item name="android:windowContentOverlay">@null</item>
     </style>
 
-    <style name="AppThemeActionBarDark" parent="Theme.AppCompat">
+    <style name="AppThemeActionBarDark" parent="Theme.Material">
         <item name="colorPrimary">@color/color_primary</item>
         <item name="colorPrimaryDark">@color/color_primary_dark</item>
         <item name="colorAccent">?attr/colorPrimary</item>
@@ -52,7 +52,7 @@
         <item name="colorAccent">@android:color/white</item>
     </style>
 
-    <style name="ActionBarStyle" parent="ThemeOverlay.AppCompat.Dark.ActionBar">
+    <style name="ActionBarStyle" parent="ThemeOverlay.Material.Dark.ActionBar">
         <item name="colorAccent">@android:color/white</item>
     </style>
 
